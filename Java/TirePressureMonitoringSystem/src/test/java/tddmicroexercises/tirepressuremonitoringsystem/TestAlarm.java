@@ -1,12 +1,11 @@
 package tddmicroexercises.tirepressuremonitoringsystem;
 
-
-import org.junit.*;
-import org.mockito.Mockito;
+import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.*;
-import static org.mockito.Mockito.*;
+import static org.junit.Assert.assertThat;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 public class TestAlarm {
 
